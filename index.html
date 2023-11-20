@@ -7,22 +7,24 @@
         <meta name="description" content="web developer, web, developer,
             front-end, html, css, javascript, react, sql">
         <title>Alarm Clock</title>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./assets/style/index.css">
         <script src="./assets/script/index.js" defer></script>
     </head>
     <body>
-        <div class="alarm-container">
-            <h1>Set Alarm</h1>
-            <form class="alarm-form">
-                <label for="current-time">Current Time:</label>
-                <input type="time" id="current-time" name="current-time" required>
-                <br>
-                <label for="alarm-time">Alarm Time:</label>
-                <input type="time" id="alarm-time" name="alarm-time" required>
-                <br>
-                <button type="submit">Set Alarm</button>
-            </form>
+        <div class="container">
+            <main>
+                <h1>12:00</h1>
+                <p>
+                    <i class="fa-solid fa-bell"></i>
+                    <span>12:00</span>
+                </p>
+                <div class="set-alarm">
+                    <input type="text" placeholder="HH">
+                    <input type="text" placeholder="MM">
+                    <button></button>
+                </div>
+            </main>
         </div>
     </body>
 </html>
