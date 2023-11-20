@@ -15,15 +15,15 @@
         <div class="container">
             <main>
                 <div class="flex">
-                    <h1 id="clock">12:00</h1>
+                    <h1 id="clock"></h1>
                     <p>
                         <i class="fa-solid fa-bell"></i>
-                        <span>12:00</span>
+                        <span id="alarmOutput"></span>
                     </p>
                     <div class="set-alarm">
-                        <input type="text" placeholder="HH">
-                        <input type="text" placeholder="MM">
-                        <button>Set alarm</button>
+                        <input type="text" id="hourInput" placeholder="HH" minlength="1" maxlength="2">
+                        <input type="text"id="minuteInput" placeholder="MM" minlength="1" maxlength="2">
+                        <button onclick="setAlarm()">Set alarm</button>
                     </div>
                 </div>
             </main>
