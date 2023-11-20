@@ -39,7 +39,7 @@ function updateClock() {
                 alarmSound.currentTime = 0;
                 clockElement.style.color = '';
                 alarmTriggered = false;
-            }, 10000);
+            }, 60000);
         }
     }
 }
