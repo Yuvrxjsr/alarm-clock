@@ -59,8 +59,9 @@ input {
     background-color: #24232a;
     color: #99989a;
     padding: 10px 20px;
-    width: 66px;
+    width: 68px;
     border-radius: 50px;
+    border: solid 1px #24232a;
 }
 
 button {
